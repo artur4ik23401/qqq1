@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.avatar{
+    box-shadow: 4px 4px 14px rgba(19, 38, 49, 0.75);
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+    
+    
+}
+body{ 
+    background-attachment: fixed;
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
+    color: rgb(105, 107, 109);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 13px;
+    font-weight: bold;
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626727242_30-kartinkin-com-p-krasno-chernii-zadnii-fon-krasivo-33.jpg);
+    background-size: 100%;
+
+}
+.soc__setti{
+    transition:color 0.4s;
+    transition:font-size 0.4s;
+    text-decoration: none;
+}
+.soc__setti:hover{
+    color: rgb(51, 124, 153);
+    font-size: 30px;
+}
+
+.block{
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(00, 00, 00,0.3);
+    border: 3px solid rgb(56, 56, 56);
+    border-radius: 35px;
+    margin: 15px ;
+
+}
+.block .hobby{
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: 40px;
+} 
+.block .hobby:hover{
+cursor: pointer;
+}
+.pole{
+    background-color: rgb(204, 202, 198);
+}
+table{
+
+    border: 1px solid grey;
+}
+th {
+    border: 1px solid grey;
+ }
+ td {
+    border: 1px solid grey;
+ }
+ .block:hover{
+    background-color: rgb(104, 104, 104);
+    color: black;
+
+ }
+ .btn{
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(32, 32, 32);
+ }
+ .btn:hover{
+    background-color: rgb(175, 175, 175);
+    color: black;
+ }
